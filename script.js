@@ -4,7 +4,6 @@ let turn = document.querySelector("#turn");
 // let newGameBtn = document.querySelector("#new-btn");
 let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
-
 let turnO = true; //player 1, palyer 2 
 
 const winPatterns = [
@@ -13,7 +12,6 @@ const winPatterns = [
     [0, 4, 8],
     [1, 4, 7],
     [2, 5, 8],
-    [2, 4, 6],
     [3, 4, 5],
     [6, 7, 8],
 ];
@@ -39,6 +37,8 @@ const checkWinner = () => {
                      winner = "Player2";
                 }
                 showWinner(winner);
+            } else if (box.innerText === "") {
+
             }
         }
     }
