@@ -9,25 +9,26 @@
 </head>
 <body>
     <main>
-    <div class="navbar" id="lay">
+    <div class="navbar">
         <h1>Tic Tac Toe </h1>
         <img src="tic-tac-toe-2.png">
     </div>
-    <div class="msg-container hide" id="lay">
-        <p id="msg"><label id="turn">Turn : Player 1</label><br></br>Continue Playing</p>
+    <div class="msg-container" id="lay">
+       <div id="turn">Turn : Player 1</div> 
+       <div><p id="msg">Continue Playing</p></div>
         <!-- <button id="new-btn">New Game</button> -->
     </div>
     <div class="container" id="lay">
     <div class="game">
+        <button class="box bl bt"></button>
+        <button class="box bt"></button>
+        <button class="box bt br"></button>
+        <button class="box bl"></button>
         <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
-        <button class="box"></button>
+        <button class="box br"></button>
+        <button class="box bl bb"></button>
+        <button class="box bb"></button>
+        <button class="box bb br"></button>
     </div>
 </div>
 <button id="reset-btn">Reset Game</button>
