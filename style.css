@@ -44,8 +44,8 @@ img {
 .box {
     width: 18vmin;
     height: 18vmin;
-    border-radius: 1rem ;
-    border: none;
+    border-radius: 0.5rem ;
+    border: 2px solid black;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
     color: #b0413e;
@@ -69,26 +69,32 @@ img {
 
 #msg {
     color: #081b31;
-    font-size: 5vmin;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    font-size: 8vmin;;
 }
 
-.msg-container {
-    height: 10vmin;
-}
-
-#lay {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.msg-container div {
+    text-align: center;
+    margin-top: 1.5rem;
 }
 #turn {
-    font-size: 1.5rem;
+    font-size: 5vmin;
     color: #fff;
-    background-color: #081b31;
-    border-radius: 1rem;
     padding: 0.5rem;
-    text-align: center;
+    background-color:#081b31 ;
+    border-radius: 1rem;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 
+.br {
+    border-right: 0;
+}
+.bl {
+    border-left: 0;
+}
+.bt {
+    border-top: 0;
+}
+.bb {
+    border-bottom: 0;
+}
