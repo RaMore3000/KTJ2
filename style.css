@@ -75,8 +75,9 @@ img {
 .msg-container div {
     text-align: center;
     margin-top: 1.5rem;
+    /* border: 2px solid black; */
 }
-#turn {
+#turn, #score {
     font-size: 5vmin;
     color: #fff;
     padding: 0.5rem;
@@ -85,7 +86,6 @@ img {
     margin-left: 35%;
     margin-right: 35%;
 }
-
 .br {
     border-right: 0;
 }
